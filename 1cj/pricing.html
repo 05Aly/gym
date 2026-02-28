@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأسعار - فيتنس جيم</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <i class="fas fa-dumbbell me-2"></i>
+                فيتنس جيم
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="trainers.html">المدربين</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="pricing.html">الأسعار</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact">اتصل بنا</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row align-items-center min-vh-50">
+                <div class="col-12 text-center">
+                    <h1 class="page-title">خطط الاشتراك</h1>
+                    <p class="page-subtitle">اختر الخطة التي تناسب احتياجاتك وميزانيتك</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Plans -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Basic Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>الخطة الأساسية</h4>
+                            <div class="price">
+                                <span class="currency">ريال</span>
+                                <span class="amount">199</span>
+                                <span class="period">/شهر</span>
+                            </div>
+                            <p class="price-description">مثالية للمبتدئين</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i>وصول غير محدود للجيم</li>
+                                <li><i class="fas fa-check"></i>استخدام جميع المعدات</li>
+                                <li><i class="fas fa-check"></i>فصول جماعية</li>
+                                <li><i class="fas fa-check"></i>غرف تبديل الملابس</li>
+                                <li><i class="fas fa-check"></i>دش ساخن</li>
+                                <li><i class="fas fa-times"></i>تدريب شخصي</li>
+                                <li><i class="fas fa-times"></i>استشارات التغذية</li>
+                                <li><i class="fas fa-times"></i>خدمات السبا</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary">اشترك الآن</a>
+                            <p class="pricing-note">لا توجد التزامات طويلة المدى</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Advanced Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card featured">
+                        <div class="pricing-badge">الأكثر شعبية</div>
+                        <div class="pricing-header">
+                            <h4>الخطة المتقدمة</h4>
+                            <div class="price">
+                                <span class="currency">ريال</span>
+                                <span class="amount">299</span>
+                                <span class="period">/شهر</span>
+                            </div>
+                            <p class="price-description">الأفضل للنتائج السريعة</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i>وصول غير محدود للجيم</li>
+                                <li><i class="fas fa-check"></i>استخدام جميع المعدات</li>
+                                <li><i class="fas fa-check"></i>فصول جماعية</li>
+                                <li><i class="fas fa-check"></i>4 جلسات تدريب شخصي</li>
+                                <li><i class="fas fa-check"></i>استشارات التغذية</li>
+                                <li><i class="fas fa-check"></i>تقييم اللياقة البدنية</li>
+                                <li><i class="fas fa-check"></i>خطة تدريب مخصصة</li>
+                                <li><i class="fas fa-times"></i>خدمات السبا</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-primary">اشترك الآن</a>
+                            <p class="pricing-note">وفر 20% عند الاشتراك لسنة كاملة</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium Plan -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h4>الخطة المميزة</h4>
+                            <div class="price">
+                                <span class="currency">ريال</span>
+                                <span class="amount">499</span>
+                                <span class="period">/شهر</span>
+                            </div>
+                            <p class="price-description">تجربة VIP كاملة</p>
+                        </div>
+                        <div class="pricing-features">
+                            <ul>
+                                <li><i class="fas fa-check"></i>وصول غير محدود للجيم</li>
+                                <li><i class="fas fa-check"></i>استخدام جميع المعدات</li>
+                                <li><i class="fas fa-check"></i>فصول جماعية</li>
+                                <li><i class="fas fa-check"></i>تدريب شخصي غير محدود</li>
+                                <li><i class="fas fa-check"></i>استشارات التغذية</li>
+                                <li><i class="fas fa-check"></i>خدمات السبا</li>
+                                <li><i class="fas fa-check"></i>غرف VIP</li>
+                                <li><i class="fas fa-check"></i>خدمة التوصيل</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer">
+                            <a href="#contact" class="btn btn-outline-primary">اشترك الآن</a>
+                            <p class="pricing-note">تجربة VIP حصرية</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Services -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">خدمات إضافية</h2>
+                <p class="section-subtitle">خدمات مكملة لتحسين تجربتك الرياضية</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon-card">
+                        <div class="addon-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h5>جلسة تدريب شخصي</h5>
+                        <div class="addon-price">150 ريال</div>
+                        <p>جلسة تدريب شخصية واحدة مع مدرب محترف</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon-card">
+                        <div class="addon-icon">
+                            <i class="fas fa-apple-alt"></i>
+                        </div>
+                        <h5>استشارة تغذية</h5>
+                        <div class="addon-price">200 ريال</div>
+                        <p>استشارة غذائية شاملة مع خطة مخصصة</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon-card">
+                        <div class="addon-icon">
+                            <i class="fas fa-spa"></i>
+                        </div>
+                        <h5>جلسة سبا</h5>
+                        <div class="addon-price">100 ريال</div>
+                        <p>جلسة استرخاء في السبا مع تدليك</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="service-addon-card">
+                        <div class="addon-icon">
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                        <h5>تقييم اللياقة</h5>
+                        <div class="addon-price">50 ريال</div>
+                        <p>تقييم شامل لللياقة البدنية والقياسات</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Comparison Table -->
+    <section class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">مقارنة الخطط</h2>
+                <p class="section-subtitle">قارن بين الخطط المختلفة واختر الأنسب لك</p>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="comparison-table">
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>الميزة</th>
+                                        <th class="text-center">الأساسية</th>
+                                        <th class="text-center">المتقدمة</th>
+                                        <th class="text-center">المميزة</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>وصول غير محدود للجيم</td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>استخدام جميع المعدات</td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>فصول جماعية</td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>جلسات تدريب شخصي</td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center">4 جلسات</td>
+                                        <td class="text-center">غير محدود</td>
+                                    </tr>
+                                    <tr>
+                                        <td>استشارات التغذية</td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>خدمات السبا</td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>غرف VIP</td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>خدمة التوصيل</td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-times text-danger"></i></td>
+                                        <td class="text-center"><i class="fas fa-check text-success"></i></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">الأسئلة الشائعة</h2>
+                <p class="section-subtitle">إجابات على أكثر الأسئلة شيوعاً</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                    هل يمكنني تغيير خطتي في أي وقت؟
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نعم، يمكنك ترقية أو تخفيض خطتك في أي وقت. التغييرات ستطبق في بداية دورة الفوترة التالية.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    هل هناك التزامات طويلة المدى؟
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    لا، جميع خططنا مرنة وبدون التزامات طويلة المدى. يمكنك الإلغاء في أي وقت.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                    هل يمكنني تجربة الخدمة قبل الاشتراك؟
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نعم، نقدم جولة مجانية في الجيم وجلسة تجريبية مجانية للتعرف على خدماتنا.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                    ما هي طرق الدفع المتاحة؟
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نقبل جميع طرق الدفع: نقداً، بطاقات الائتمان، التحويل البنكي، والدفع الإلكتروني.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="faq5">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5">
+                                    هل هناك خصومات للطلاب أو العائلات؟
+                                </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    نعم، نقدم خصومات خاصة للطلاب (20%) والعائلات (15%) عند الاشتراك لـ 3 أشخاص أو أكثر.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="section-title">ابدأ رحلتك اليوم</h2>
+                <p class="section-subtitle">تواصل معنا لاختيار الخطة المناسبة لك</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="contact-form">
+                        <form id="pricingContactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="الاسم الكامل" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <input type="email" class="form-control" placeholder="البريد الإلكتروني" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <input type="tel" class="form-control" placeholder="رقم الهاتف" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <select class="form-control" required>
+                                        <option value="">اختر الخطة</option>
+                                        <option value="basic">الخطة الأساسية - 199 ريال</option>
+                                        <option value="advanced">الخطة المتقدمة - 299 ريال</option>
+                                        <option value="premium">الخطة المميزة - 499 ريال</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" rows="5" placeholder="أخبرنا عن أهدافك الرياضية" required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-primary btn-lg">احجز جلسة تجريبية مجانية</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <h5><i class="fas fa-dumbbell me-2"></i>فيتنس جيم</h5>
+                        <p>مركز اللياقة البدنية الأول في المملكة العربية السعودية</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>روابط سريعة</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="index.html#about">من نحن</a></li>
+                        <li><a href="services.html">الخدمات</a></li>
+                        <li><a href="trainers.html">المدربين</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>الخدمات</h6>
+                    <ul class="footer-links">
+                        <li><a href="services.html">تدريب الأوزان</a></li>
+                        <li><a href="services.html">التمارين الهوائية</a></li>
+                        <li><a href="services.html">التدريب الشخصي</a></li>
+                        <li><a href="services.html">استشارات التغذية</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h6>ساعات العمل</h6>
+                    <div class="working-hours">
+                        <p><strong>السبت - الخميس:</strong> 6:00 ص - 12:00 م</p>
+                        <p><strong>الجمعة:</strong> 2:00 م - 12:00 م</p>
+                        <p><strong>العطل الرسمية:</strong> مغلق</p>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2024 فيتنس جيم. جميع الحقوق محفوظة.</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
